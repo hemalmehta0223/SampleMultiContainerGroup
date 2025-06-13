@@ -2,7 +2,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0
 
 WORKDIR /app
 
-COPY Release .
+COPY Publish .
 
 EXPOSE 80
 
