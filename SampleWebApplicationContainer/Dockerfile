@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY Publish .
 
-EXPOSE 80
+EXPOSE 81
 
 CMD ["dotnet", "SampleWebApplicationContainer.dll"]
